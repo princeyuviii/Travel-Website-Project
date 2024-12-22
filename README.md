@@ -1,4 +1,4 @@
-# AirBnB Frontent
+# Frontent
 
 This is a personal project to get better at React. I used [Scrimba's React tutorial](https://scrimba.com/learn/learnreact/), which was extremely helpful at understanding essential React concepts.
 
