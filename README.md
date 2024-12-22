@@ -1,31 +1,60 @@
-# Frontent
+Travel Website - Frontend
 
-This is a personal project to get better at React. I used [Scrimba's React tutorial](https://scrimba.com/learn/learnreact/), which was extremely helpful at understanding essential React concepts.
+This is a personal project as part of the Edunet internship to enhance my skills in building full-stack applications using the MERN stack. The frontend is built using React and Vite to ensure fast and efficient development.
 
-Concepts to take away from:
-- Basic HTML and CSS concepts
-- Props and JSX
-- .Mapping()
+Concepts Covered
+	•	Fundamental HTML and CSS principles
+	•	React basics: Props, JSX, and state management
+	•	Advanced concepts like .map() for rendering dynamic lists
 
-# Building the Frontend
+Tech Stack
+	•	Frontend: React, Vite
+	•	Backend: Node.js, Express.js
+	•	Database: MongoDB
 
-You need to install npm, and I recommend having a Node Package Manager. Here is an [repo]([https://nodejs.org/en/download/package-manager](https://github.com/nvm-sh/nvm)https://github.com/nvm-sh/nvm) to get NVM.
-Below are the commands for MacOS
+Setting Up the Frontend Locally
+
+Before running the project, ensure you have npm installed. You can use Node Version Manager (NVM) for easy Node.js and npm installation.
+
+Installing NVM
+
+Below are the commands for MacOS to install NVM:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
-To verify the installation, use the following command
+Verify the installation:
 ```
 command -v nvm
 ```
 
-You can now install npm using the following command
+Once NVM is installed, use the following command to install Node.js:
 ```
 nvm install node
 ```
 
-The website utilised [Vite](https://vitejs.dev/guide/) which helped to speed up bundling our frontend and building our website fast. To build the website locally, use the command
+Running the Frontend
+
+1.	Clone this repository:
+```
+git clone https://github.com/princeyuviii/Travel-Website-Project.git
+```
+2.	Navigate to the frontend directory:
+```
+cd frontend  
+```
+3.	Install dependencies:
+```
+npm install  
+```
+
+4.	Start the development server:
 ```
 npm run dev
 ```
-Which will host the website on a local port
+
+This will host the website on a local port (usually http://localhost:5173).
+
+Tools and Libraries
+	•	Vite: Used for fast bundling and optimized development.
+	•	React: Frontend framework for building user interfaces.
+	•	NVM: For managing Node.js and npm versions.
